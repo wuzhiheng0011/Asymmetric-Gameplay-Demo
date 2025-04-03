@@ -32,7 +32,7 @@
   <sup>Unity 2021 LTS | PC 平台 | 非对称玩法原型</sup>
 </div>
 <div align="center">
-  <img src="./Art-References/屏幕截图 2025-04-03 134954.png" width="600" alt="场地概念图">
+  <img src="./Art-References/屏幕截图 2025-04-03 140307.png" width="600" alt="场地概念图">
   <br>
   <sup>Unity 2021 LTS | PC 平台 | 非对称玩法原型</sup>
 </div>
