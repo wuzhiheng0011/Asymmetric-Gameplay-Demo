@@ -1,1 +1,16 @@
+using UnityEngine;
 
+public class ChurchDoor : MonoBehaviour
+{
+    public float requiredCharge = 2f;
+    public GameObject brokenDoorPrefab;
+
+    public void OnHit(float chargePower)
+    {
+        if (chargePower >= requiredCharge)
+        {
+            Instantiate(brokenDoorPrefab, transform.position, transform.rotation);
+            Destroy(gameObject);
+        }
+    }
+}
