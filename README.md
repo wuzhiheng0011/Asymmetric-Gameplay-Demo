@@ -1,12 +1,5 @@
 # 🎮 双角色教堂潜入 Demo 设计文档
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x400?text=Gameplay+Screenshot" width="600" alt="游戏概念图">
-  <br>
-  <sup>Unity 2021 LTS | PC 平台 | 非对称玩法原型</sup>
-</div>
-
----
 
 ## 🕹️ 核心机制设计
 
@@ -31,9 +24,13 @@
 ### 核心创新亮点
 1. **差异化路线机制**
    - 双角色共享全局视野但物理路径隔离
-   - 轻型角色专属高空路线（房梁系统）
-   - 重型角色专属地面路线（可破坏场景）
-
+   - 轻型角色专属高空路线（房梁）
+   - 重型角色专属地面路线（大厅）
+<div align="center">
+  <img src="https://via.placeholder.com/800x400?text=Gameplay+Screenshot" width="600" alt="初步白模设计">
+  <br>
+  <sup>Unity 2021 LTS | PC 平台 | 非对称玩法原型</sup>
+</div>
 2. **风险平衡设计**
    - ▶️ 重型角色劣势：持续暴露于弓箭手火力范围
    - ▶️ 轻型角色劣势：狭窄通道+坠落即死惩罚
