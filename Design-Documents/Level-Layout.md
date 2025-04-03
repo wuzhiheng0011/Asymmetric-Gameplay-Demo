@@ -15,5 +15,5 @@ flowchart TB
     end
 
     subgraph 最终区域
-        G[BOSS战区域] --> I[双角色协作机制]
+        G[BOSS战区域] --> I[双角色可体验到同一boss的不同机制]
     end
