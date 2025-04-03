@@ -27,7 +27,12 @@
    - 轻型角色专属高空路线（房梁）
    - 重型角色专属地面路线（大厅）
 <div align="center">
-  <img src="https://via.placeholder.com/800x400?text=Gameplay+Screenshot" width="600" alt="初步白模设计">
+  <img src="./Art-References/屏幕截图 2025-04-03 134954.png" width="600" alt="初步白模设计">
+  <br>
+  <sup>Unity 2021 LTS | PC 平台 | 非对称玩法原型</sup>
+</div>
+<div align="center">
+  <img src="./Art-References/屏幕截图 2025-04-03 134954.png" width="600" alt="场地概念图">
   <br>
   <sup>Unity 2021 LTS | PC 平台 | 非对称玩法原型</sup>
 </div>
