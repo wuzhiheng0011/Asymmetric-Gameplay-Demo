@@ -34,7 +34,7 @@
 <div align="center">
   <img src="./Art-References/屏幕截图 2025-04-03 140307.png" width="600" alt="场地概念图">
   <br>
-  <sup>Unity 2021 LTS | PC 平台 | 非对称玩法原型</sup>
+  <sup>Unity 2021 LTS | PC 平台 | 地形概念</sup>
 </div>
 2. **风险平衡设计**
    - ▶️ 重型角色劣势：持续暴露于弓箭手火力范围
@@ -62,7 +62,22 @@
 ### 场景系统
 - 基础场景搭建  
 - 白模替换（Probuilder/预制体）  
-- 环境光照与后期处理配置  
+- 环境光照与后期处理配置
+<div align="center">
+  <img src="./Art-References/changjing1.png" width="600" alt="初步白模设计">
+  <br>
+  <sup>Unity 2021 LTS | PC 平台 | 场景搭建</sup>
+</div>
+<div align="center">
+  <img src="./Art-References/changjing2.png" width="600" alt="初步白模设计">
+  <br>
+  <sup>Unity 2021 LTS | PC 平台 | 非对称玩法原型</sup>
+</div>
+<div align="center">
+  <img src="./Art-References/huanjing.png" width="600" alt="初步白模设计">
+  <br>
+  <sup>Unity 2021 LTS | PC 平台 | 环境</sup>
+</div>
 
 ### 角色系统
 - 二段跳脚本实现  
