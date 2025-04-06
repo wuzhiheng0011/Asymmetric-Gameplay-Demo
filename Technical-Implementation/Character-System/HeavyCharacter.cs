@@ -63,7 +63,7 @@ public class PlayerHeavy : MonoBehaviour
         if (isCharging && Input.GetKey(KeyCode.J))
         {
             chargeTimer += Time.deltaTime;
-            // 这里可以添加蓄力特效或UI提示
+    
         }
 
         // 释放攻击
