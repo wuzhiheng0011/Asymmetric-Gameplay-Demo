@@ -1,16 +1,46 @@
 using UnityEngine;
 
-public class ChurchDoor : MonoBehaviour
+public class CharacterSwitch : MonoBehaviour
 {
-    public float requiredCharge = 2f;
-    public GameObject brokenDoorPrefab;
+    public PlayerLight lightCharacter;
+    public PlayerHeavy heavyCharacter;
+    public CameraFollow cameraFollow; // 拖入摄像机脚本
 
-    public void OnHit(float chargePower)
+    private bool isControllingLight = true;
+
+    void Start()
     {
-        if (chargePower >= requiredCharge)
+        SetControl(isControllingLight);
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
         {
-            Instantiate(brokenDoorPrefab, transform.position, transform.rotation);
-            Destroy(gameObject);
+            isControllingLight = !isControllingLight;
+            SetControl(isControllingLight);
         }
+    }
+
+    void SetControl(bool controlLight)
+    {
+        // 切换脚本控制
+        lightCharacter.enabled = controlLight;
+        heavyCharacter.enabled = !controlLight;
+
+        // 重置物理状态
+        lightCharacter.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        heavyCharacter.GetComponent<Rigidbody>().velocity = Vector3.zero;
+
+        // 摄像机跟随
+        cameraFollow.target = controlLight ?
+            lightCharacter.transform :
+            heavyCharacter.transform;
+
+        // 视觉反馈（可选）
+        lightCharacter.GetComponent<Renderer>().material.color =
+            controlLight ? Color.blue : Color.gray;
+        heavyCharacter.GetComponent<Renderer>().material.color =
+            !controlLight ? Color.red : Color.gray;
     }
 }
